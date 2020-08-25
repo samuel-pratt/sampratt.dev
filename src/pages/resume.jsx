@@ -7,7 +7,8 @@ const Resume = () => (
   <Layout>
     <SEO title="Resume" />
     <h1>Resume</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <h3>Experience</h3>
+    <h4>Ensemble</h4>
   </Layout>
 )
 
