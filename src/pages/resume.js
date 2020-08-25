@@ -11,4 +11,4 @@ const Resume = () => (
   </Layout>
 )
 
-export default Resumeesume
+export default Resume
