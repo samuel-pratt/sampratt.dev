@@ -1,3 +1,18 @@
+## 📚 Features:
+
+- Landingpage
+- Blog overview page
+- Markdown sourcing from /content folder
+- Estimated reading time for each post
+- Styled components with emotion
+- Netlify deployment friendly
+- Nunito font included as npm module
+- Syntax highlighting with prismjs
+- Textmarkerstyle headings inspired by Basecamp
+- Site meta tags with React Helmet
+- Plugins for offline support
+- Draft blog posts not published
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
