@@ -1,7 +1,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
-import styled from "styled-components"
+import styled from "@emotion/styled"
 
 const Container = styled.div`
   text-align: center;
