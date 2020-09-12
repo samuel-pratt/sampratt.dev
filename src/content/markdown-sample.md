@@ -1,8 +1,8 @@
 ---
-title: "Second Title"
+title: "Markdown Sample"
 date: "2020-08-26"
-draft: false
-path: "/markdown-template"
+draft: true
+path: "/markdown-sample"
 ---
 
 # H1

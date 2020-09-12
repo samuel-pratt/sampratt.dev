@@ -36,9 +36,9 @@ const ReadingTime = styled.h5`
 const IndexPage = ({ data }) => {
   return (
     <Layout>
-      <SEO title="Blog" />
+      <SEO title="Projects" />
       <Content>
-        <h1>Blog</h1>
+        <h1>Projects</h1>
         {data.allMarkdownRemark.edges
           .filter(({ node }) => {
             const rawDate = node.frontmatter.rawDate
@@ -56,10 +56,6 @@ const IndexPage = ({ data }) => {
               >
                 <MarkerHeader>{node.frontmatter.title}</MarkerHeader>
               </Link>
-              <div>
-                <ArticleDate>{node.frontmatter.date}</ArticleDate>
-                <ReadingTime> - {node.fields.readingTime.text}</ReadingTime>
-              </div>
               <p>{node.excerpt}</p>
             </div>
           ))}

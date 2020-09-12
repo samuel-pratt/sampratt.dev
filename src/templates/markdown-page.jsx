@@ -42,9 +42,9 @@ export default ({ data }) => {
       />
       <Content>
         <MarkedHeader>{post.frontmatter.title}</MarkedHeader>
-        {/* <HeaderDate>
+        <HeaderDate>
           {post.frontmatter.date} - {post.fields.readingTime.text}
-        </HeaderDate> */}
+        </HeaderDate>
         <MarkdownContent dangerouslySetInnerHTML={{ __html: post.html }} />
       </Content>
     </Layout>
