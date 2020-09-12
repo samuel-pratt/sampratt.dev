@@ -35,7 +35,7 @@ const NavLink = styled(Link)`
   }
 `
 
-const GitHubLink = styled.a`
+const ExternalLink = styled.a`
   color: black;
   margin-left: 15px;
   text-decoration: none;
@@ -72,15 +72,28 @@ const SiteHeader = styled.header`
   justify-content: center;
 `
 
+const HeaderBreak = styled.p`
+  color: black;
+  margin-left: 15px;
+  text-decoration: none;
+  display: inline-block;
+  position: relative;
+`
+
 const Header = ({ siteTitle }) => (
   <SiteHeader>
     <Content>
       <p>
         <HomeLink to="/">Home</HomeLink>
-        <NavLink to="/resume">Resume</NavLink>
-        <GitHubLink target="_blank" href="https://github.com/samuel-pratt">
+        <NavLink to="/about">About</NavLink>
+        <NavLink to="/contact">Contact</NavLink>
+        <HeaderBreak>|</HeaderBreak>
+        <ExternalLink target="_blank" href="https://ferrytimes.ca">
+          FerryTimes
+        </ExternalLink>
+        <ExternalLink target="_blank" href="https://github.com/samuel-pratt">
           GitHub
-        </GitHubLink>
+        </ExternalLink>
       </p>
     </Content>
   </SiteHeader>
