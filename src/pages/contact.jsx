@@ -8,6 +8,8 @@ const AboutPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`, "about"]} />
     <h3>Contact</h3>
+    <p>Under Construction</p>
+    <form name="contact" netlify></form>
   </Layout>
 )
 

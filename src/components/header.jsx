@@ -86,12 +86,20 @@ const Header = ({ siteTitle }) => (
       <p>
         <HomeLink to="/">Home</HomeLink>
         <NavLink to="/about">About</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
-        <HeaderBreak>|</HeaderBreak>
-        <ExternalLink target="_blank" href="https://ferrytimes.ca">
+        {/*  <NavLink to="/contact">Contact</NavLink> */}
+        <HeaderBreak> | </HeaderBreak>
+        <ExternalLink
+          target="_blank"
+          rel="noreferrer"
+          href="https://ferrytimes.ca"
+        >
           FerryTimes
         </ExternalLink>
-        <ExternalLink target="_blank" href="https://github.com/samuel-pratt">
+        <ExternalLink
+          target="_blank"
+          rel="noreferrer"
+          href="https://github.com/samuel-pratt"
+        >
           GitHub
         </ExternalLink>
       </p>
