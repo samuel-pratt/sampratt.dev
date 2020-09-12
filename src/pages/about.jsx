@@ -56,11 +56,11 @@ const AboutPage = () => (
       .
     </p>
     <p>
-      Some of my non-computer hobbies of mine include cooking and cars. I worked
-      as a line cook during my second year of university, and am always looking
-      for ways to improve my culinary chops. I also enjoy working on my 2001
-      Subaru Outback, not the most luxurious car, but a fun one to drive and
-      modify, and is great for road trips.
+      Some non-computer hobbies of mine include cooking and cars. I worked as a
+      line cook during my second year of university, and am always looking for
+      ways to improve my culinary chops. I also enjoy working on my 2001 Subaru
+      Outback, not the most luxurious car, but a fun one to drive and modify,
+      and is great for road trips.
     </p>
     <h3>My Skills</h3>
     <SkillTable>
