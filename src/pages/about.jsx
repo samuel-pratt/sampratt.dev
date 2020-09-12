@@ -44,7 +44,7 @@ const AboutPage = () => (
     <p>
       Hi there, my name is Sam Pratt and I'm a 21 year old developer from
       Victoria, BC. I have always been facinated by computers and how they work
-      from when I was a kid, and am now learning and growing to become the best
+      since I was a kid, and am now learning and growing to become the best
       front end developer I can. You can find some of my work on{" "}
       <a
         target="_blank"
@@ -53,6 +53,7 @@ const AboutPage = () => (
       >
         my GitHub
       </a>
+      .
     </p>
     <p>
       Some of my non-computer hobbies of mine include cooking and cars. I worked
