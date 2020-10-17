@@ -1,12 +1,13 @@
 import React from "react"
 
-import styled from "@emotion/styled"
+import styled from "styled-components"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const Caption = styled.center`
+const Caption = styled.p`
   opacity: 65%;
   margin-top: -20px;
+  text-align: center;
 `
 
 const SkillTable = styled.div`
