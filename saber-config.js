@@ -16,6 +16,7 @@ module.exports = {
   themeConfig: {
     style: 'dark',
     github: 'samuel-pratt',
+    projects: 'pinned-repos',
     twitter: '',
     sponsorLink: '',
     sponsorTip: '',
