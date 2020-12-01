@@ -7,7 +7,7 @@
     />
     <div class="profile-content">
       <h1 class="site-title">
-        {{ $siteConfig.title }}
+        <CoffeeIcon /> {{ $siteConfig.title }}
       </h1>
       <div class="site-description">
         {{ $siteConfig.description }}
@@ -88,6 +88,7 @@
 <script>
 import {
   GithubIcon,
+  CoffeeIcon,
   BriefcaseIcon,
   TwitterIcon,
   HeartIcon,
@@ -106,7 +107,8 @@ export default {
     CornerDownRightIcon: CornerDownRightIcon,
     InstagramIcon: InstagramIcon,
     YoutubeIcon: YoutubeIcon,
-    TwitchIcon: TwitchIcon
+    TwitchIcon: TwitchIcon,
+    CoffeeIcon: CoffeeIcon,
   },
 };
 </script>
