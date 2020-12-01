@@ -10,7 +10,7 @@ module.exports = {
 
   // Use the package `saber-theme-portfolio`
   // More: https://saber.land/docs/themes.html
-  theme: 'portfolio',
+  theme: './theme',
 
   // Configure the theme
   themeConfig: {
@@ -18,6 +18,9 @@ module.exports = {
     github: 'samuel-pratt',
     projects: 'pinned-repos',
     twitter: '',
+    instagram: '',
+    youtube: '',
+    twitch: '',
     sponsorLink: '',
     sponsorTip: '',
     nav: [
