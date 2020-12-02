@@ -40,7 +40,7 @@ export default {
 }
 
 .skill-description {
-  color: var(--text-color-lighter);
+  color: var(--text-color);
   display: block;
   text-overflow: ellipsis;
   word-wrap: break-word;
