@@ -23,6 +23,9 @@ module.exports = {
     twitch: '',
     sponsorLink: '',
     sponsorTip: '',
+    contactForm: {
+      type: 'netlify'
+    },
     nav: [
       {
         text: 'Home',
@@ -31,6 +34,10 @@ module.exports = {
       {
         text: 'About',
         link: '/about'
+      },
+      {
+        text: 'Contact',
+        link: '/contact'
       }
     ],
     skills: [
