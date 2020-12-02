@@ -3,7 +3,7 @@
     <div class="container">
       <HomeProfile />
       <div class="main">
-        <form name="Contact Form" method="POST" data-netlify="true">
+        <form name="Contact Form" method="POST" data-netlify="true" action="/success">
           <input type="hidden" name="form-name" value="Contact Form" />
           <TextInput label="Your Name" type="text" name="name" />
           <div>
