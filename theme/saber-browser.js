@@ -4,10 +4,16 @@ import 'typeface-source-sans-pro/index.css';
 import 'grid.css/grid.css';
 import HomeSection from './components/HomeSection.vue';
 
-if (__PORTFOLIO_STYLE__ === 'dark') {
-  require("prismjs/themes/prism-tomorrow.css");
-} else if (__PORTFOLIO_STYLE__ === 'light') {
-  require("prismjs/themes/prism.css");
+switch(__PORTFOLIO_STYLE__) {
+  case 'dark':
+    require("prismjs/themes/prism-tomorrow.css");
+    break;
+  case 'light':
+    require("prismjs/themes/prism.css");
+    break;
+  default:
+    require("prismjs/themes/prism.css");
+    require("prismjs/themes/prism-tomorrow.css");
 }
 
 require("saber-highlight-css/default.css");
@@ -20,6 +26,9 @@ export default (function (_ref) {
   Vue.component(HomeSection.name, HomeSection);
   setHead(function (vm) {
     var style = vm.$themeConfig.style;
+    /*if(style === 'switch') {
+      style = global.preferredTheme ? global.preferredTheme : 'dark';
+    }*/
     return {
       bodyAttrs: {
         class: "is-".concat(style, "-style")
