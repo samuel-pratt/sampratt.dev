@@ -3,33 +3,37 @@
     <div class="container">
       <HomeProfile />
       <div class="main">
-        <HomeProjects
-          v-if="$themeConfig.projects"
-          :projects="$themeConfig.projects"
-        />
-        <HomeSkills v-if="$themeConfig.skills" :skills="$themeConfig.skills" />
-        <HomePosts v-if="page.posts" id="posts" :posts="page.posts" />
+        <form name="Contact Form" method="POST" data-netlify="true">
+          <input type="hidden" name="form-name" value="Contact Form" />
+          <TextInput label="Your Name" type="text" name="name" />
+          <div>
+            <label>Your Email:</label>
+            <input type="email" name="email" />
+          </div>
+          <div>
+            <label>Message:</label>
+            <textarea name="message" />
+          </div>
+          <button type="submit">Send</button>
+        </form>
       </div>
     </div>
   </div>
 </template>
 
 <script>
-import HomeProjects from '../components/HomeProjects.vue';
-import HomePosts from '../components/HomePosts.vue';
 import HomeProfile from '../components/HomeProfile.vue';
-import HomeSkills from '../components/HomeSkills.vue';
+import TextInput from '../components/TextInput.vue';
+
 export default {
   components: {
-    HomeProjects: HomeProjects,
-    HomePosts: HomePosts,
     HomeProfile: HomeProfile,
-    HomeSkills: HomeSkills
+    TextInput: TextInput
   },
   props: ['page'],
   head: function head() {
     return {
-      title: this.$siteConfig.title,
+      title: "".concat(this.page.attributes.title, " - ").concat(this.$siteConfig.title),
       meta: [{
         property: 'og:title',
         content: this.$siteConfig.title
@@ -41,6 +45,6 @@ export default {
         content: this.$themeConfig.profilePicture
       }]
     };
-  }
+  },
 };
 </script>
