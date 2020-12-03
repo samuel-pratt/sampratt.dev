@@ -12,7 +12,7 @@
               <input type="hidden" name="form-name" value="Contact Form" />
               <TextField label="Your Name" type="text" name="name" />
               <TextField label="Your Email" type="email" name="email" />
-              <TextArea label="Message" type="text" name="message" />
+              <TextArea label="Your Message" type="text" name="message" />
               <button type="submit">Send</button>
             </form>
           </div>
@@ -51,3 +51,15 @@ export default {
   },
 };
 </script>
+
+<style scoped>
+button {
+  width: 80px;
+  height: 40px;
+  cursor:pointer;
+  border: 1px solid var(--hover-border-color);
+  border-radius: 3px;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+</style>

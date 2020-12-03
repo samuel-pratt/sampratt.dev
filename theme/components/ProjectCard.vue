@@ -59,12 +59,12 @@ export default {
 }
 
 .project-meta > span svg {
-    width: 1rem;
-    height: 1rem;
-    margin-right: 5px;
-  }
+  width: 1rem;
+  height: 1rem;
+  margin-right: 5px;
+}
 
 .project-meta > span:not(:last-child) {
-    margin-right: 15px;
-  }
+  margin-right: 15px;
+}
 </style>
