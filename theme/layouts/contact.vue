@@ -3,19 +3,20 @@
     <div class="container">
       <HomeProfile />
       <div class="main">
-        <form name="Contact Form" method="POST" data-netlify="true" action="/success">
-          <input type="hidden" name="form-name" value="Contact Form" />
-          <TextInput label="Your Name" type="text" name="name" />
-          <div>
-            <label>Your Email:</label>
-            <input type="email" name="email" />
+        <div class="columns">
+          <div class="column is-8">
+            <h2 class="page-title">
+              {{ page.attributes.title }}
+            </h2>
+            <form name="Contact Form" method="POST" data-netlify="true" action="/success">
+              <input type="hidden" name="form-name" value="Contact Form" />
+              <TextField label="Your Name" type="text" name="name" />
+              <TextField label="Your Email" type="email" name="email" />
+              <TextArea label="Message" type="text" name="message" />
+              <button type="submit">Send</button>
+            </form>
           </div>
-          <div>
-            <label>Message:</label>
-            <textarea name="message" />
-          </div>
-          <button type="submit">Send</button>
-        </form>
+        </div>
       </div>
     </div>
   </div>
@@ -23,12 +24,14 @@
 
 <script>
 import HomeProfile from '../components/HomeProfile.vue';
-import TextInput from '../components/TextInput.vue';
+import TextField from '../components/TextField.vue';
+import TextArea from '../components/TextArea.vue';
 
 export default {
   components: {
     HomeProfile: HomeProfile,
-    TextInput: TextInput
+    TextField: TextField,
+    TextArea: TextArea
   },
   props: ['page'],
   head: function head() {
