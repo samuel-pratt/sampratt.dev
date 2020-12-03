@@ -29,11 +29,21 @@ export default {
   padding-bottom: 20px;
 }
 label {
-  
+  font-size: 20px;
 }
 textarea {
   display: block;
-  width: 300px;
+  resize: none;
+  width: 400px;
+  height: 150px;
+  padding: 10px;
+  border: 1px solid var(--hover-border-color);
+  border-radius: 3px;
+  background: var(--card-bg);
+  color: var(--text-color);
+}
+textarea:focus{
+  outline: 1px solid var(--hover-border-color);
 }
 
 </style>
