@@ -23,6 +23,10 @@ module.exports = {
     twitch: '',
     sponsorLink: '',
     sponsorTip: '',
+    contactForm: {
+      type: 'netlify',
+      formSubmitRedirect: '/success'
+    },
     nav: [
       {
         text: 'Home',

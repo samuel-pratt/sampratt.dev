@@ -8,7 +8,12 @@
             <h2 class="page-title">
               {{ page.attributes.title }}
             </h2>
-            <form name="Contact Form" method="POST" data-netlify="true" action="/success">
+            <form 
+              name="Contact Form" 
+              method="POST" 
+              data-netlify="true" 
+              :action="$themeConfig.contactForm.formSubmitRedirect"
+            >
               <input type="hidden" name="form-name" value="Contact Form" />
               <TextField label="Your Name" type="text" name="name" />
               <TextField label="Your Email" type="email" name="email" />
@@ -61,5 +66,9 @@ button {
   border-radius: 3px;
   background: var(--card-bg);
   color: var(--text-color);
+}
+button:hover{
+  border: 2px solid var(--hover-border-color);
+  border-radius: 3px;
 }
 </style>

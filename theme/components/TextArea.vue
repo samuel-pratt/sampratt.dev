@@ -45,5 +45,4 @@ textarea {
 textarea:focus{
   outline: 1px solid var(--hover-border-color);
 }
-
 </style>
