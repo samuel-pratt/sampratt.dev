@@ -33,7 +33,6 @@ label {
 }
 input {
   display: block;
-  resize: none;
   width: 300px;
   padding: 10px;
   border: 1px solid var(--hover-border-color);
