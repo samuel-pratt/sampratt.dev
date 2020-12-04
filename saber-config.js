@@ -4,7 +4,9 @@
 module.exports = {
   siteConfig: {
     // Change this to the production URL of your website
-    description: 'Software Developer @ Ensemble',
+    description: 'Software Developer',
+    workUrl: 'https://www.ensemble.com',
+    workName:  'Ensemble',
     url: 'https://sampratt.dev'
   },
 

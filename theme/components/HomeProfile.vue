@@ -10,7 +10,10 @@
         <CoffeeIcon /> {{ $siteConfig.title }}
       </h1>
       <div class="site-description">
-        {{ $siteConfig.description }}
+        {{ $siteConfig.description }} @ 
+        <a target="_blank" :href="$siteConfig.workUrl" class="description-link">
+          {{ $siteConfig.workName}}
+        </a>
       </div>
       <nav v-if="$themeConfig.nav" class="nav">
         <ul>
@@ -195,6 +198,10 @@ export default {
   width: 1rem;
   height: 1rem;
   margin-right: 10px;
+}
+
+.description-link {
+  color: var(--text-color);
 }
 
 .sponsor-link {
