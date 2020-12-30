@@ -70,7 +70,7 @@
             >@{{ $themeConfig.twitch }}</a
           >
         </div>
-        <div v-if="$themeConfig.twitch" class="profile-meta-item">
+        <div v-if="$themeConfig.linkedin" class="profile-meta-item">
           <LinkedinIcon />
           <a
             target="_blank"
