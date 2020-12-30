@@ -76,7 +76,7 @@
             target="_blank"
             rel="noopener noreferrer"
             :href="`https://linkedin.com/in/${$themeConfig.linkedin}`"
-            >LinkedIn</a
+            >@SamPratt</a
           >
         </div>
         <div v-if="$themeConfig.hireable" class="profile-meta-item">
