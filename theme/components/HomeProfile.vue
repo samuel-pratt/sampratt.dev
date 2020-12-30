@@ -70,6 +70,15 @@
             >@{{ $themeConfig.twitch }}</a
           >
         </div>
+        <div v-if="$themeConfig.twitch" class="profile-meta-item">
+          <LinkedinIcon />
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            :href="`https://linkedin.com/in/${$themeConfig.linkedin}`"
+            >LinkedIn</a
+          >
+        </div>
         <div v-if="$themeConfig.hireable" class="profile-meta-item">
           <BriefcaseIcon />Available for hire
         </div>
@@ -98,7 +107,8 @@ import {
   CornerDownRightIcon,
   InstagramIcon,
   YoutubeIcon,
-  TwitchIcon
+  TwitchIcon,
+  LinkedinIcon
 } from 'vue-feather-icons';
 
 export default {
@@ -112,6 +122,7 @@ export default {
     YoutubeIcon: YoutubeIcon,
     TwitchIcon: TwitchIcon,
     CoffeeIcon: CoffeeIcon,
+    LinkedinIcon: LinkedinIcon
   },
 };
 </script>

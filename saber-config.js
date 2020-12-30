@@ -19,6 +19,7 @@ module.exports = {
     style: 'dark',
     github: 'samuel-pratt',
     projects: 'pinned-repos',
+    linkedin: 'sam-pratt-7045401b6',
     twitter: '',
     instagram: '',
     youtube: '',
