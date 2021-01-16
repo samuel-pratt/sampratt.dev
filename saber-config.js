@@ -47,7 +47,7 @@ module.exports = {
     skills: [
       {
         topic: 'python',
-        description: `I love using Python for building APIs and web scrapers`
+        description: `I love using Python to build backends for my apps`
       },
       {
         topic: 'nodejs',
@@ -55,7 +55,7 @@ module.exports = {
       },
       {
         topic: 'react',
-        description: `I use React / React Native for pretty much all my frontends`
+        description: `I use React / React Native for apps and websites I build at work and on my own`
       }
     ]
   },
