@@ -1,23 +1,7 @@
 :root{
   --bg: #000;
-  --card-bg: rgb(20, 20, 20);
   --text-color: #fff;
   --text-color-lighter: #ccc;
-  --link-color: #0096cf;
-  --profile-width: 400px;
-  --border-color: #4e4e4e;
-  --hover-border-color: rgb(156, 156, 156);
-  --nav-link-color: rgb(102, 102, 102);
-  --nav-link-active-color: #fff;
-  --nav-link-hover-color: #ccc;
-  --button-border-color: #4e4e4e;
-  --button-hover-border-color: rgb(156, 156, 156);
-  --code-language-color: rgb(94, 92, 92);
-  --profile-link-color: #fff;
-  --profile-link-hover-color: #ccc;
-  --blockquote-bg: var(--card-bg);
-  --blockquote-border-color: var(--border-color);
-  --blockquote-color: #c1c2c5;
 }
 
 .main {
@@ -29,6 +13,7 @@
 
 .title {
   color: var(--text-color);
+  margin-top: 20px;
 }
 
 .subtitle {
@@ -40,12 +25,28 @@
   color: var(--text-color);
 }
 
+.subtitle-link:hover {
+  color: var(--text-color-lighter);
+}
+
+.subtitle-link:active {
+  color: var(--text-color);
+}
+
 .social-link {
   text-decoration: none;
   color: var(--text-color);
   display: flex;
   align-items: center;
   margin-top: 15px;
+}
+
+.social-link:hover {
+  color: var(--text-color-lighter);
+}
+
+.social-link:active {
+  color: var(--text-color);
 }
 
 .social-link-icon {
