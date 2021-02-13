@@ -1,4 +1,4 @@
-.is-dark-style {
+:root{
   --bg: #000;
   --card-bg: rgb(20, 20, 20);
   --text-color: #fff;
@@ -20,22 +20,35 @@
   --blockquote-color: #c1c2c5;
 }
 
-.is-light-style {
-  --bg: #fff;
-  --card-bg: #f9f9f9;
-  --text-color: #333;
-  --text-color-lighter: rgb(187, 187, 187);
-  --link-color: #0096cf;
-  --profile-width: 400px;
-  --border-color: #e2e2e2;
-  --hover-border-color: #ccc;
-  --nav-link-color: rgb(177, 174, 174);
-  --nav-link-active-color: #000;
-  --nav-link-hover-color: rgb(85, 85, 85);
-  --button-border-color: #e2e2e2;
-  --button-hover-border-color: #ccc;
-  --code-language-color: #ccc;
-  --blockquote-bg: #f1f1f1;
-  --blockquote-border-color: #ccc;
-  --blockquote-color: #6a737d;
+.main {
+  background: var(--bg);
+  display: flex;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title {
+  color: var(--text-color);
+}
+
+.subtitle {
+  color: var(--text-color);
+  margin-top: -10px;
+}
+
+.subtitle-link {
+  color: var(--text-color);
+}
+
+.social-link {
+  text-decoration: none;
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.social-link-icon {
+  margin-right: 7px;
+  stroke-width: 1px;
 }
