@@ -34,42 +34,6 @@
             >@{{ $themeConfig.github }}</a
           >
         </div>
-        <div v-if="$themeConfig.twitter" class="profile-meta-item">
-          <TwitterIcon />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            :href="`https://twitter.com/${$themeConfig.twitter}`"
-            >@{{ $themeConfig.twitter }}</a
-          >
-        </div>
-        <div v-if="$themeConfig.instagram" class="profile-meta-item">
-          <InstagramIcon />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            :href="`https://instagram.com/${$themeConfig.instagram}`"
-            >@{{ $themeConfig.instagram }}</a
-          >
-        </div>
-        <div v-if="$themeConfig.youtube" class="profile-meta-item">
-          <YoutubeIcon />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            :href="`https://youtube.com/${$themeConfig.youtube}`"
-            >@{{ $themeConfig.youtube.split('/')[1] }}</a
-          >
-        </div>
-        <div v-if="$themeConfig.twitch" class="profile-meta-item">
-          <TwitchIcon />
-          <a
-            target="_blank"
-            rel="noopener noreferrer"
-            :href="`https://twitch.tv/${$themeConfig.twitch}`"
-            >@{{ $themeConfig.twitch }}</a
-          >
-        </div>
         <div v-if="$themeConfig.linkedin" class="profile-meta-item">
           <LinkedinIcon />
           <a
@@ -79,20 +43,7 @@
             >@SamPratt</a
           >
         </div>
-        <div v-if="$themeConfig.hireable" class="profile-meta-item">
-          <BriefcaseIcon />Available for hire
-        </div>
       </div>
-      <a
-        v-if="$themeConfig.sponsorLink"
-        rel="noopener noreferrer"
-        target="_blank"
-        class="sponsor-link"
-        :href="$themeConfig.sponsorLink"
-        :title="$themeConfig.sponsorTip"
-      >
-        <HeartIcon />Sponsor
-      </a>
     </div>
   </div>
 </template>
@@ -102,12 +53,8 @@ import {
   GithubIcon,
   CoffeeIcon,
   BriefcaseIcon,
-  TwitterIcon,
   HeartIcon,
   CornerDownRightIcon,
-  InstagramIcon,
-  YoutubeIcon,
-  TwitchIcon,
   LinkedinIcon
 } from 'vue-feather-icons';
 
@@ -115,12 +62,8 @@ export default {
   components: {
     GithubIcon: GithubIcon,
     BriefcaseIcon: BriefcaseIcon,
-    TwitterIcon: TwitterIcon,
     HeartIcon: HeartIcon,
     CornerDownRightIcon: CornerDownRightIcon,
-    InstagramIcon: InstagramIcon,
-    YoutubeIcon: YoutubeIcon,
-    TwitchIcon: TwitchIcon,
     CoffeeIcon: CoffeeIcon,
     LinkedinIcon: LinkedinIcon
   },
@@ -213,35 +156,6 @@ export default {
 
 .description-link {
   color: var(--text-color);
-}
-
-.sponsor-link {
-  display: flex;
-  margin-top: 20px;
-  border: 1px solid var(--button-border-color);
-  border-radius: 4px;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 0;
-  font-size: 1.2rem;
-  width: 100%;
-  color: var(--profile-link-color);
-}
-
-.sponsor-link svg {
-  width: 1rem;
-  height: 1rem;
-  margin-right: 5px;
-}
-
-.sponsor-link:hover {
-  border-color: var(--button-hover-border-color);
-}
-
-.sponsor-link:hover svg {
-  color: red;
-  fill: red;
 }
 
 .nav ul {

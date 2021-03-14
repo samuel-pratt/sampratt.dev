@@ -20,12 +20,6 @@ module.exports = {
     github: 'samuel-pratt',
     projects: 'pinned-repos',
     linkedin: 'sam-pratt-7045401b6',
-    twitter: '',
-    instagram: '',
-    youtube: '',
-    twitch: '',
-    sponsorLink: '',
-    sponsorTip: '',
     contactForm: {
       type: 'netlify',
       formSubmitRedirect: '/success'

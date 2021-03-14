@@ -36,12 +36,6 @@ export default (function (_ref) {
       meta: [{
         name: 'description',
         content: vm.$siteConfig.description
-      }, {
-        name: 'twitter:card',
-        content: 'summary'
-      }, vm.$themeConfig.twitter && {
-        name: 'twitter:creator',
-        content: "@".concat(vm.$themeConfig.twitter)
       }],
       link: [vm.$feed && {
         rel: 'alternate',
