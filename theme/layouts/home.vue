@@ -7,8 +7,8 @@
           v-if="$themeConfig.projects"
           :projects="$themeConfig.projects"
         />
-        <HomeSkills v-if="$themeConfig.skills" :skills="$themeConfig.skills" />
         <HomePosts v-if="page.posts" id="posts" :posts="page.posts" />
+        <HomeSkills v-if="$themeConfig.skills" :skills="$themeConfig.skills" />
       </div>
     </div>
   </div>
