@@ -1,3 +1,38 @@
-baseURL = "http://example.org/"
+baseURL = "https://sampratt.dev/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Sam Pratt"
+theme ="hugo-theme-basic"
+googleAnalytics = "UA-XXXXXXXXX-X"
+enableEmoji = true 
+copyright = "© 2021 <a href=''>Sam Pratt<a>. Built using <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>."
+description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  titleEmoji = ":hot_beverage:"
+  # change this!
+  twitter = "siegerts"
+
+[Permalinks]
+  post = "post/:slug"
+
+[[params.menu]]
+  name = "blog"
+  url = "posts/"
+
+[[params.menu]]
+  name = "about"
+  url = "about/"
+
+[privacy]
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.twitter]
+    enableDNT = true
+  [privacy.youtube]
+    privacyEnhanced = true
