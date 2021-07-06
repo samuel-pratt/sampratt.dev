@@ -4,7 +4,7 @@ title = "Sam Pratt"
 theme ="hugo-theme-basic"
 googleAnalytics = "UA-XXXXXXXXX-X"
 enableEmoji = true 
-copyright = "© 2021 <a href=''>Sam Pratt<a>. Built using <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>."
+copyright = "© 2021 <a href='https://github.com/samuel-pratt'>Sam Pratt<a>. Built using <a href='https://github.com/siegerts/hugo-theme-basic'>Hugo Theme Basic</a>."
 description = "Basic personal site theme styled with minimal tachyons, syntax highlighting, and blog series configuration."
 
 [taxonomies]
@@ -13,8 +13,6 @@ description = "Basic personal site theme styled with minimal tachyons, syntax hi
 
 [params]
   titleEmoji = ":hot_beverage:"
-  # change this!
-  twitter = "siegerts"
 
 [Permalinks]
   post = "post/:slug"

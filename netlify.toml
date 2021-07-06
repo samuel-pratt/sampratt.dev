@@ -4,4 +4,4 @@
   from = "https://sampratt.dev/cgen"
   to = "https://medium.com/adobetech/building-an-spa-to-enhance-b2e-workflows-with-project-firefly-de128b180ee3"
   status = 301
-  force = true #COMMENT: ensure that we always redirect
+  force = true
