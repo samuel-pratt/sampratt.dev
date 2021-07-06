@@ -66,7 +66,7 @@ params:
   homeInfoParams:
     Title: 'Hello'
     Content: >
-      New personal site, currently in progress. Built using Hugo and PaperMod
+      New personal site, currently under construction. Built using Hugo and PaperMod
 
   socialIcons:
     - name: github
