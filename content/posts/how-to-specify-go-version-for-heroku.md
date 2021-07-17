@@ -45,3 +45,7 @@ The other option is you can set the `GOVERSION` enviroment variable directly. Th
 
 ![config vars setting](/images/go-config-vars.png)
 
+---
+
+Thanks for reading! If you notice an error in this article please [contact me](/contact) or open an issue on [Github](https://github.com/samuel-pratt/sampratt.dev/issues/new).
+
