@@ -1,4 +1,4 @@
-baseURL = "http://sampratt.dev"
+baseURL = "https://sampratt.dev"
 title = "SamPratt"
 theme = "hugo-coder"
 languageCode = "en"
