@@ -46,7 +46,7 @@ customSCSS = []
 # Custom JS
 customJS = []
 
-googleAnalytics = "G-4EH83NJ2SB"
+googleAnalytics = "UA-177910217-3"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
