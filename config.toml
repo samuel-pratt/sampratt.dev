@@ -46,7 +46,9 @@ customSCSS = []
 # Custom JS
 customJS = []
 
-googleAnalytics = "UA-177910217-3"
+# If you want to use goatcounter(https://goatcounter.com) for analytics, add this section
+[params.goatCounter]
+code = "sampratt"
 
 # If you want to implement a Content-Security-Policy, add this section
 [params.csp]
