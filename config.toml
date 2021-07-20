@@ -13,8 +13,8 @@ enableEmoji = true
 [params]
 author = "Sam Pratt"
 description = "Sam Pratt's personal website"
-keywords = "blog,developer,personal"
-info = ["Full Stack Developer"]
+keywords = "blog,developer,personal,sam,samuel,pratt,software,go,heroku"
+info = ["Full Stack Developer","Go Developer","Samuel Pratt","Sam Pratt"]
 avatarURL = "images/avatar.png"
 #gravatar = "john.doe@example.com"
 #footerContent = "Enter a text here."
