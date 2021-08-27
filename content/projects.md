@@ -3,10 +3,20 @@ title = "Projects"
 slug = "projects"
 +++
 
-Hoping to expand this page in the near future.
+### Ebiten Asteroids (In Progress)
+A recreation of the classic game Asteroids in the Golang game engine Ebiten.
+
+[Repo](https://github.com/samuel-pratt/ebiten-asteroids)
+
+### Bugsnax API
+The Bugsnax API is a public, open-source api for the game Bugsnax by Young Horses. Written in Python using Flask and is hosted on Heroku.
+
+[Repo](https://github.com/samuel-pratt/bugsnax-api)
+
+[Website](https://www.bugsnaxapi.com)
 
 ### BC Ferries API
-The BC Ferries API scrapes the BC Ferries website and serves the data using a REST API built in Go. It utilizes goquerey to scrape the web and cron to schedule the updates.
+The BC Ferries API scrapes the BC Ferries website and serves the data using a REST API built in Go. It utilizes goquerey to scrape the web and cron to schedule the updates. It is hosted on Heroku.
 
 [Repo](https://github.com/samuel-pratt/bc-ferries-api)
 

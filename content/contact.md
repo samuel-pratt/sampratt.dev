@@ -13,8 +13,8 @@ sjpratt19@gmail.com
 
 - [LinkedIn](https://www.linkedin.com/in/sam-pratt-7045401b6/)
 
-- [Medium](https://sjpratt19.medium.com)
+- Discord: Sam Pratt#7363
+
+- [Medium](https://sjpratt19.medium.com) (Mostly inactive)
 
 - [Twitter](https://twitter.com/_SamPratt/) (Don't use this one much)
-
-- Discord: Sam Pratt#7363

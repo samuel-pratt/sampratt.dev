@@ -96,13 +96,6 @@ weight = 4
 url = "https://www.linkedin.com/in/sam-pratt-7045401b6/"
 target = "_blank"
 
-[[params.social]]
-name = "Medium"
-icon = "fa fa-medium"
-weight = 5
-url = "https://sjpratt19.medium.com"
-target = "_blank"
-
 #[[params.social]]
 #name = "RSS"
 #icon = "fa fa-rss"
