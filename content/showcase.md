@@ -1,6 +1,6 @@
 +++
-title = "Projects"
-slug = "projects"
+title = "Showcase"
+slug = "showcase"
 +++
 
 ### Ebiten Asteroids (In Progress)
