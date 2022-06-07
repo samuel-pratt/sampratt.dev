@@ -1,0 +1,13 @@
+{
+  "name": "Sam Pratt",
+  "email": "sjpratt19@gmail.com",
+  "description": "If you have an issue with one of my apps, a project you'd like my help on, or feedback in general, send me an email.",
+  "image": {
+    "src": "../../images/profile.png",
+    "alt": "Gatsby Logo"
+  },
+  "socialProfiles": {
+    "from": ["LinkedIn", "Medium", "Github", "Mail"],
+    "showIcons": true
+  }
+}

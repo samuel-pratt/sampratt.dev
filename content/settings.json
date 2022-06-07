@@ -1,0 +1,34 @@
+{
+  "siteMetadata": {
+    "language": "en",
+    "siteUrl": "https://sampratt.dev",
+    "title": "Sam Pratt",
+    "titleTemplate": "%s · Portfolio Minimal",
+    "description": "A portfolio website.",
+    "author": "Sam Pratt",
+    "avatar": "../content/images/gatsby.png",
+    "bio": "Hi, my name is Sam Pratt. I'm a Software Developer at Kano in Victoria, BC. In my free time I make apps like BC Ferry Times and an in progress app for monitoring Heroku dynos on the go.",
+    "social": {
+      "github": "https://github.com/samuel-pratt",
+      "linkedin": "https://www.linkedin.com/in/sam-pratt-7045401b6/",
+      "mail": "mailto:sjpratt19@gmail.com"
+    }
+  },
+  "siteConfiguration": {
+    "logo": { "text": "SP" },
+    "navigation": {
+      "header": [],
+      "ctaButton": {
+        "openNewTab": false,
+        "label": "Contact",
+        "url": "#contact"
+      },
+      "footer": []
+    },
+    "featureToggles": {
+      "useDarkModeAsDefault": false,
+      "useDarkModeBasedOnUsersPreference": true,
+      "useCookieBar": false
+    }
+  }
+}

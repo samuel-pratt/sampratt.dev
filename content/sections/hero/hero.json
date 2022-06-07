@@ -1,0 +1,18 @@
+{
+  "intro": "Hi",
+  "image": {
+    "src": "../../images/waving-hand.png",
+    "alt": "Waving Hand Emoji"
+  },
+  "title": "My name is Sam Pratt",
+  "subtitle": {
+    "prefix": "I'm a developer from ",
+    "highlight": "Victoria, BC",
+    "suffix": "."
+  },
+  "description": "I make mobile apps.",
+  "socialProfiles": {
+    "from": ["LinkedIn", "Github", "Mail"],
+    "showIcons": false
+  }
+}

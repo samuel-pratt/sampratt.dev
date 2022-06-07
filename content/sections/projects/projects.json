@@ -1,0 +1,27 @@
+{
+  "projects": [
+    {
+      "visible": true,
+      "category": "",
+      "title": "BC Ferry Times",
+      "description": "Get real time information for your next BC Ferries voyage with Ferry Times! Know exactly when, where, and how full your next trip will be at the tap of a finger! This app tracks real time data from every major ferry terminal in British Columbia.",
+      "tags": [],
+      "image": {
+        "src": "../../images/ferries.png",
+        "alt": "BC Ferry Times",
+        "linkTo": "https://ferrytimes.ca"
+      },
+      "links": [
+        {
+          "type": "external",
+          "url": "https://ferrytimes.ca"
+        }
+      ]
+    }
+  ],
+  "button": {
+    "visible": false,
+    "label": "Visit on Github",
+    "url": "https://github.com/konstantinmuenster/gatsby-theme-portfolio-minimal"
+  }
+}
