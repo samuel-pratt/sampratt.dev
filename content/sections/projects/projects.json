@@ -9,12 +9,12 @@
       "image": {
         "src": "../../images/ferries_screenshots.png",
         "alt": "BC Ferry Times",
-        "linkTo": "https://apps.apple.com/ca/app/bc-ferry-times/id1615899209"
+        "linkTo": "https://ferrytimes.app"
       },
       "links": [
         {
           "type": "external",
-          "url": "https://apps.apple.com/ca/app/bc-ferry-times/id1615899209"
+          "url": "https://ferrytimes.app"
         }
       ]
     }
