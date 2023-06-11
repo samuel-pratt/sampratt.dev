@@ -3,9 +3,10 @@ import {
   ContactSection,
   HeroSection,
   Page,
-  ProjectsSection,
   Seo,
 } from "gatsby-theme-portfolio-minimal";
+
+import {ProjectsSection} from "../sections/Projects/index"
 
 export default function IndexPage() {
   return (
@@ -13,7 +14,7 @@ export default function IndexPage() {
       <Seo title="Sam Pratt" />
       <Page>
         <HeroSection sectionId="hero" />
-        <ProjectsSection sectionId="features" heading="Projects" />
+        <ProjectsSection sectionId="features" heading="Apps" />
         <ContactSection sectionId="contact" heading="Contact" />
       </Page>
     </>
