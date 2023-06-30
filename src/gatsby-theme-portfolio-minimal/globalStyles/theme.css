@@ -40,7 +40,14 @@ body[data-theme='darkTheme'] {
     --code-block-tkimp: #fd971f;
 }
 
-.style-module--ProjectImageWrapper--c39f7, .style-module--ProjectImageWrapper--668f6  {
+.style-module--ProjectImageWrapper--c39f7 {
+    width: 300px !important;
+    height: 300px !important;
+    padding: 30px !important;
+    margin: 30px !important;
+}
+
+.style-module--ProjectImageWrapper--668f6 {
     width: 300px !important;
     height: 300px !important;
     padding: 30px !important;
